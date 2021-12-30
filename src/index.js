@@ -7,6 +7,7 @@ import Header from './components/Header';
 import Home from './pages/Home';
 import School from './pages/School';
 import NoPage from './pages/NoPage';
+import Current from './pages/Current';
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
         <Route path="/" element={<Header />}>
           <Route index element={<Home />} />
           <Route path="school" element={<School />} />
+          <Route path="current" element={<Current />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
