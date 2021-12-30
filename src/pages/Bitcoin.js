@@ -16,9 +16,7 @@ const About = () => {
                 <h2>Most Recent Bitcoin Block</h2> 
                 <div class="col-1 filler-top"></div>
                 <div class="col-10 paraDiv">
-                    <table>
                         <BitcoinData />
-                    </table>
                 </div>
             </div>
         </div>

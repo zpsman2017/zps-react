@@ -39,17 +39,17 @@ export default class BitcoinData extends React.Component {
         if (error) {
             return <div>Error: {error.message}</div>;
         } else if (!isLoaded) {
-            return <div>
+            return <tbody>
                 <tr><td class="table-label">Hash:</td><td class="table-data">Loading...</td></tr>
                 <tr><td class="table-label">Height:</td><td class="table-data">Loading...</td></tr>
                 <tr><td class="table-label">Transactions:</td><td class="table-data">Loading...</td></tr>
-            </div>;
+            </tbody>;
         } else {
-            return <div>
+            return <tbody>
                 <tr><td class="table-label">Hash:</td><td class="table-data">{hash}</td></tr>
                 <tr><td class="table-label">Height:</td><td class="table-data">{height}</td></tr>
                 <tr><td class="table-label">Transactions:</td><td class="table-data">{transactions}</td></tr>
-            </div>;
+            </tbody>;
         }
     }
 
