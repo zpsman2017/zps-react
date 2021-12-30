@@ -8,6 +8,7 @@ import Home from './pages/Home';
 import School from './pages/School';
 import NoPage from './pages/NoPage';
 import Current from './pages/Current';
+import About from './pages/About';
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
           <Route index element={<Home />} />
           <Route path="school" element={<School />} />
           <Route path="current" element={<Current />} />
+          <Route path="about" element={<About />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
