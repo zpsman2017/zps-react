@@ -21,10 +21,10 @@ const School = () => {
             </p>
           </div>
           <div class="col-12">
-            <img src="/images/webServicesFinalProject.png" class="responsiveImg shadow"/>
+            <img src="/images/webServicesFinalProject.png" class="responsiveImg shadow" />
           </div>
           <div class="col-12">
-            <img src="/images/webServicesFinalProjectIndianapolis.png" class="responsiveImg shadow"/>
+            <img src="/images/webServicesFinalProjectIndianapolis.png" class="responsiveImg shadow" />
           </div>
         </div>
       </div>
@@ -43,10 +43,10 @@ const School = () => {
             </p>
           </div>
           <div class="col-12">
-            <img src="/images/webAppsFinalProject.png" class="responsiveImg shadow"/>
+            <img src="/images/webAppsFinalProject.png" class="responsiveImg shadow" />
           </div>
           <div class="col-12">
-            <img src="/images/webAppsFinalProjectQuickLinks.png" class="responsiveImg shadow"/>
+            <img src="/images/webAppsFinalProjectQuickLinks.png" class="responsiveImg shadow" />
           </div>
         </div>
       </div>
@@ -64,10 +64,10 @@ const School = () => {
             </p>
           </div>
           <div class="col-6">
-            <img src="/images/battleshipCLI.png" class="responsiveImg battleshipImg shadow" id="battleshipCLI"/>
+            <img src="/images/battleshipCLI.png" class="responsiveImg battleshipImg shadow" id="battleshipCLI" />
           </div>
           <div class="col-6">
-            <img src="/images/battleshipGUI.png" class="responsiveImg battleshipImg shadow"/>
+            <img src="/images/battleshipGUI.png" class="responsiveImg battleshipImg shadow" />
           </div>
         </div>
       </div>
@@ -85,10 +85,10 @@ const School = () => {
             </p>
           </div>
           <div class="col-6" >
-            <img src="/images/miamiEsportsDesktop.png" class="responsiveImg shadow" id="miamiEsportsDesktop"/>
+            <img src="/images/miamiEsportsDesktop.png" class="responsiveImg shadow" id="miamiEsportsDesktop" />
           </div>
           <div class="col-6">
-            <img src="/images/miamiEsportsMobile.png" class="responsiveImg shadow" id="miamiEsportsMobile"/>
+            <img src="/images/miamiEsportsMobile.png" class="responsiveImg shadow" id="miamiEsportsMobile" />
           </div>
         </div>
       </div>
