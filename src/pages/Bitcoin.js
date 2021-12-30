@@ -13,7 +13,7 @@ const About = () => {
         <div class="row top">
             <div class="col-2 filler-top"></div>
             <div class="col-8 headerDiv">
-                <h2>Most recent Bitcoin block</h2> 
+                <h2>Most Recent Bitcoin Block</h2> 
                 <div class="col-1 filler-top"></div>
                 <div class="col-10 paraDiv">
                     <table>
