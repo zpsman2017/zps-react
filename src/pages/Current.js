@@ -30,7 +30,7 @@ const Current = () => {
         <div class="row">
             <div class="col-2 filler-top"></div>
             <div class="col-8 headerDiv">
-                <a href="/bitcoin-block"><h2>Bitcoin Block Explorer</h2></a>
+                <a href="/bitcoin"><h2>Bitcoin Block Explorer</h2></a>
                 <div class="col-1 filler-top"></div>
                 <div class="col-10 paraDiv">
                     <p>I made use of a free API to look at Bitcoin blockchain data. I have a strong interest in cryptocurrency and

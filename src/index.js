@@ -9,6 +9,7 @@ import School from './pages/School';
 import NoPage from './pages/NoPage';
 import Current from './pages/Current';
 import About from './pages/About';
+import Bitcoin from './pages/Bitcoin';
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
           <Route path="school" element={<School />} />
           <Route path="current" element={<Current />} />
           <Route path="about" element={<About />} />
+          <Route path="bitcoin" element={<Bitcoin />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
