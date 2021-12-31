@@ -21,6 +21,7 @@ export default class BitcoinData extends React.Component {
                 (result) => {
                     this.setState({
                         isLoaded: true,
+                        fee: result.fee,
                         hash: result.hash,
                         height: result.height,
                         transactions: result.n_tx
@@ -56,7 +57,7 @@ export default class BitcoinData extends React.Component {
     }
 
     render() {
-        const { error, isLoaded, hash, height, transactions } = this.state;
+        const { error, fee, hash, height, isLoaded, transactions } = this.state;
         if (error) {
             return <div>Error: {error.message}</div>;
         } else if (!isLoaded) {
@@ -64,12 +65,14 @@ export default class BitcoinData extends React.Component {
                 <tr><td class="table-label">Hash:</td><td class="table-data">Loading...</td></tr>
                 <tr><td class="table-label">Height:</td><td class="table-data">Loading...</td></tr>
                 <tr><td class="table-label">Transactions:</td><td class="table-data">Loading...</td></tr>
+                <tr><td class="table-label">Fee:</td><td class="table-data">Loading...</td></tr>
             </tbody></table>;
         } else {
             return <table><tbody>
                 <tr><td class="table-label">Hash:</td><td class="table-data">{hash}</td></tr>
                 <tr><td class="table-label">Height:</td><td class="table-data">{height}</td></tr>
                 <tr><td class="table-label">Transactions:</td><td class="table-data">{transactions}</td></tr>
+                <tr><td class="table-label">Fee:</td><td class="table-data">{fee}</td></tr>
             </tbody></table>;
         }
     }
