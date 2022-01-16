@@ -22,7 +22,7 @@ const Home = () => {
                 <div class="col-45 headerDiv">
                     <h2>How?</h2>
                     <p>I got some spare computers from an office that had gotten new ones. I pieced together the best hardware and installed Ubuntu Server on it.
-                        I use Node for the webserver, OpenSSH in order to access it remotely via terminal and an IDE</p>
+                        I use Node for the webserver, OpenSSH in order to access it remotely via terminal and an IDE. I also run Pi-hole to block ads on my home network.</p>
                     <p>As I change WHAT I'm hosting, I will be adding more functionality.</p>
                 </div>
             </div>
