@@ -11,7 +11,7 @@ const About = () => {
             <div class="col-4 filler-top"></div>
             <div class="col-4 headerDiv">
                 <p>Think of this site as a showcase of my work.</p>
-                <p>I completely own this server, and it sits right under my desk.</p>
+                <p>I completely own this server, and it sits in my apartment.</p>
                 <p><a href="mailto:zpsman2017@gmail.com">zpsman2017@gmail.com</a></p>
             </div>
             <div class="col-1 filler"></div>
