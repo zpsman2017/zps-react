@@ -32,6 +32,29 @@ const School = () => {
       <div class="row">
         <div class="col-2 filler-top"></div>
         <div class="col-8 headerDiv">
+          <h2>DevOps Final Project</h2>
+          <div class="col-1 filler-top"></div>
+          <div class="col-10 paraDiv">
+            <p>This goal of this project was to write a script that would spin up n+1 AWS instances and configure 1 as an nginx loadbalancer, and the rest as nginx web servers.
+              The script dynamically created an nginx load balancer configuration, ran an Ansible playbook to configure both types of instances,
+              cloned a git repo of web pages for the web servers, created a docker container that would be used as a CI/CD runner, and dynamically created .gitlab-ci.yml.
+              The docker container watched for any merge requests to a production branch, dynamically created an additional page, and pushed the changes to the running web servers.
+            </p>
+            <p>This project involved AWS CLI, bash scripting, GitLab CI/CD, YAML, Ansible, Docker, and HTML/CSS.</p>
+            <p>Here are screenshots of code snippets.</p>
+            <div class="col-12">
+              <img src="/images/DevOpsStartSystemScript.png" class="responsiveImg shadow" />
+            </div>
+            <div class="col-12">
+              <img src="/images/DevOpsGitLabCICD.png" class="responsiveImg shadow" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-2 filler-top"></div>
+        <div class="col-8 headerDiv">
           <h2>Web Applications Final Project</h2>
           <div class="col-1 filler-top"></div>
           <div class="col-10 paraDiv">
