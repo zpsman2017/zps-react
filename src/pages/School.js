@@ -11,6 +11,32 @@ const School = () => {
       <div class="row">
         <div class="col-2 filler-top"></div>
         <div class="col-8 headerDiv">
+          <h2>Final Capstone</h2>
+          <div class="col-1 filler-top"></div>
+          <div class="col-10 paraDiv">
+            <p>This was my final capstone project completed for a real client during my senior year. The final deliverable was a website where customers could
+              purchase oil for heating buildings that would later be delivered by Atlantic Fuels. Customers could check if their zipcode was in range of delivery,
+              and input all neccessary information, including payment data that was not stored by us. Atlantic Fuels and the customer would receieve an email receipt.
+              Admins could update the prices of fuel. I was in charge of the Java Spring Boot REST API for communicating with the database.
+              This involved CRUD operations of "accounts", "addresses", "products", "zipcodes", and more. Below are screenshots of the frontend and unit testing from a terminal.
+              We used React and PHP for the front end and MySQL for the database.
+            </p>
+          </div>
+          <div class="col-12">
+            <img src="/images/CapstoneDelivery.png" class="responsiveImg shadow" />
+          </div>
+          <div class="col-12">
+            <img src="/images/CapstoneOrderInfo.png" class="responsiveImg shadow" />
+          </div>
+          <div class="col-12">
+            <img src="/images/CapstoneTesting.png" class="responsiveImg shadow" />
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-2 filler-top"></div>
+        <div class="col-8 headerDiv">
           <h2>Web Services Final Project</h2>
           <div class="col-1 filler-top"></div>
           <div class="col-10 paraDiv">
